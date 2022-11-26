@@ -66,6 +66,20 @@ public class ArrayConcepts {
 		//Other way of storing the values if the values are fixed and readily available
 		String [][]  empNameValues= {{"Anusha","Akshay","Anjali","XYZ"},{"Gayathri","Govinda","Vamsi","ABC"}};
 		System.out.println(empNameValues[1][3]);
+		
+		int [][] empIdAndSalary= new int [3][2];
+		empIdAndSalary[0][0]=1;
+		empIdAndSalary[0][1]=35000;
+		
+		empIdAndSalary[1][0]=2;
+		empIdAndSalary[1][1]=24000;
+				
+		empIdAndSalary[2][0]=3;
+		empIdAndSalary[2][1]=40000;
+		
+		int [][] empPayDetails = {{1,35000},{2,24000},{3,40000}};		
+		boolean [] eligibility = {true,false,true};
+		
 	}
 
 }
