@@ -13,6 +13,8 @@ public class ArrayConcepts {
 	
 	
 	// multiple values  with same data type with in the same variable
+	
+	String name3 ="XYZ";
 
 	public static void main(String[] args) {
 		
